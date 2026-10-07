@@ -1,0 +1,1 @@
+A simple deployment test to OpenShift from local environment.
