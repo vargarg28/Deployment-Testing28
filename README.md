@@ -1,0 +1,1 @@
+Deployment Testing to OpenShift from local environment.
