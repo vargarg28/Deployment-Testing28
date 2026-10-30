@@ -36,3 +36,6 @@ jobs:
       - name: Verify application loads
         run: |
           python -c "from app import app"
+
+      - name: Build Docker image    
+        run: docker build -t hello-world .
