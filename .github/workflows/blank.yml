@@ -38,4 +38,4 @@ jobs:
           python -c "from app import app"
 
       - name: Build Docker image    
-        run: docker build -t hello-world .
+        run: docker build -f Containerfile -t hello-world .
